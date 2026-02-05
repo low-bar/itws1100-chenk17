@@ -1,0 +1,1 @@
+When I commited the html I was questioning why when typing in the path it brings up parent directary instead of the resume unlike how the hello world worked. After a quick search I learned naming a html file index makes it the default page to show and so I renamed my resume to it

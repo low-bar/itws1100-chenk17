@@ -1,0 +1,70 @@
+/* This sets the background color and font for the whole page */
+      body {
+         font-family: Arial, sans-serif;
+         background-color: #f4f4f4;
+         margin: 0;
+         padding: 0;
+      }
+
+      /* This styles the main container for the resume */
+      .resume-container {
+         background-color: #fff;
+         max-width: 700px;
+         margin: 30px auto;
+         padding: 30px;
+         border-radius: 8px;
+         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* This styles the name at the top */
+      h1 {
+         color: #000;
+         margin-bottom: 5px;
+      }
+
+      /* This styles the section headings */
+      h2 {
+         color: #00539C;
+         border-bottom: 1px solid #ddd;
+         padding-bottom: 5px;
+         margin-top: 30px;
+      }
+
+      /* This styles the contact info */
+      .contact-info {
+         color: #555;
+         font-size: 1em;
+         margin-bottom: 20px;
+      }
+
+      /* This styles the list of skills */
+      ul {
+         list-style-type: disc;
+         margin-left: 20px;
+      }
+
+      /* This styles each job or education entry */
+      .item {
+         margin-bottom: 15px;
+      }
+
+      /* Flexbox for items with dates on the right */
+      .item-flex {
+         display: flex;
+         align-items: flex-start;
+         margin-bottom: 15px;
+         justify-content: space-between;
+      }
+
+      .item-content {
+         flex: 1;
+      }
+
+      .item-date {
+         min-width: 120px;
+         color: #888;
+         font-size: 0.98em;
+         margin-left: 18px;
+         text-align: left;
+         flex-shrink: 0;
+      }

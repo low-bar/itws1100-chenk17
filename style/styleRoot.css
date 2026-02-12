@@ -199,3 +199,8 @@ body {
     transform: translateY(-20px);
   }
 }
+
+/* Adjust body overflow to allow scrolling */
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling but allow vertical scrolling */
+}

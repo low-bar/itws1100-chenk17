@@ -180,14 +180,20 @@ body {
 
 .shape.gem {
   background: url('../images/gem.svg') no-repeat center/contain;
+  top: 20%;
+  left: 5%;
 }
 
 .shape.sword {
   background: url('../images/sword.svg') no-repeat center/contain;
+  top: 50%;
+  right: 5%;
 }
 
 .shape.jet {
   background: url('../images/jet.svg') no-repeat center/contain;
+  bottom: 20%;
+  left: 10%;
 }
 
 /* Animation for floating effect */

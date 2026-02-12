@@ -3,31 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lab 1 </title>
-    <!-- Internal CSS styles are placed inside the style.css file in the <head> section -->
+    <title>Lab 1 Pictures</title>
     <link rel="stylesheet" href="../../style/styleRoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Main container for the resume content -->
-    <div class="home-container">
-        <!-- Name and contact info -->
-        <h1>Lab 1 Pictures</h1>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lab 1 Pictures</h1>
+            <p>Visual documentation of Lab 1 results.</p>
+        </div>
+    </header>
 
-        <div class="item">
+    <main class="home-container zoom-in">
+        <section class="item">
             <h2>Pictures</h2>
             <p><img src="../../images/lab1/chenk17-lab1-GitHubInfo.png" class="picture" alt="Lab 1 Pictures"></p>
             <p><img src="../../images/lab1/kevin-azure-status-non-pdf.png" class="picture" alt="Lab 1 Pictures"></p>
             <p><img src="../../images/lab1/kevin-hellow-world-non-pdf.png" class="picture" alt="Lab 1 Pictures"></p>
-        </div>
+        </section>
 
-        <div class="item">
+        <section class="item">
             <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit">Back Home</a></p>
             <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs.html">Back Labs</a></p>
+        </section>
+    </main>
 
-        </div>
+    <style>
+        @keyframes zoomIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
 
-    </div>
+        .zoom-in {
+            animation: zoomIn 1.5s ease-in-out;
+            background-color: #e6f7ff; /* Light blue */
+        }
+    </style>
 </body>
 
 </html>

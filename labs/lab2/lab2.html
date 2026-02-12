@@ -4,29 +4,45 @@
 <head>
    <meta charset="UTF-8">
    <title>Lab 2 Summary</title>
-   <!-- Internal CSS styles are placed inside the style folder in the <head> section -->
    <link rel="stylesheet" href="../../style/styleRoot.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <div class="home-container">
-      <!-- Name and contact info -->
-      <h1>Lab 2 Summary</h1>
+   <header class="hero">
+      <div class="hero-content">
+         <h1>Lab 2 Summary</h1>
+         <p>Recreating resumes as a website page using HTML and CSS.</p>
+      </div>
+   </header>
 
+   <main class="home-container slide-in">
+      <section>
+         <h2>Lab Summary</h2>
+         <p>This lab instructed us to recreate our resumes as a website page using the HTML and CSS we learned. Examples of resumes and CSS styles were given for use as reference.</p>
+      </section>
 
-      <h2> Lab Summary </h2>
-      <p> This lab instruced us to recreate our resumes as a website page using the html and CSS we leanred.</p>
-      <p> Examples of resumes and css styles were given for use as reference.</p>
+      <section>
+         <h2>Challenges</h2>
+         <p>My current resume is, to say the least, lackluster. I haven't worked any impressive jobs or started really anything during college, so there isn't really anything to fill in.</p>
+      </section>
 
-      <h2> Challenges </h2>
-      <p>My current resume is to say the least lackluster.
-         I haven't worked any impressive jobs or started really anything during college so there isnt really anything to fill in.
-      </p>
+      <section>
+         <p><a href="chenk17-KevinChen-resume.html">My Resume</a></p>
+      </section>
+   </main>
 
+   <style>
+       @keyframes slideIn {
+           from { transform: translateX(-100%); opacity: 0; }
+           to { transform: translateX(0); opacity: 1; }
+       }
 
-      <p><a href="chenk17-KevinChen-resume.html">My Resume</a></p>
-
-   </div>
+       .slide-in {
+           animation: slideIn 1.5s ease-out;
+           background-color: #e6f7ff; /* Light blue */
+       }
+   </style>
 </body>
 
 </html>

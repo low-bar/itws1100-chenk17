@@ -1,12 +1,10 @@
 /* This sets the background color and font for the whole page */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #7b93f1;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #e6f7ff; /* Light blue */
   margin: 0;
   padding: 0;
-  animation-name: myAnimation;
-  animation-duration: 5s;  
-  animation-fill-mode: forwards;
+  color: #333;
 }
 
 /* This styles the main container for the home page */
@@ -24,13 +22,13 @@ body {
 
 /* This styles the name at the top */
 h1 {
-  color: #000000;
+  color: #007acc; /* Azure blue */
   margin-bottom: 5px;
 }
 
 /* This styles the section headings */
 h2 {
-  color: #00539C;
+  color: #007acc; /* Azure blue */
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
   margin-top: 30px;
@@ -61,4 +59,55 @@ ul {
 @keyframes myAnimation {
   from {background-color: white;}
   to { background-color: 7b93f1;}
+}
+
+.hero {
+  background: linear-gradient(135deg, #007acc, #005b99); /* Azure to navy gradient */
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #005b99; /* Navy blue */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #003f73; /* Dark navy */
+}
+
+/* Confetti animation for the home page */
+@keyframes confetti {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #007acc; /* Azure blue */
+  animation: confetti 3s linear infinite;
+}
+
+/* Add more blue-themed styles for other pages */
+.about, .labs-list, .item {
+  background: #f0f8ff; /* Alice blue */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

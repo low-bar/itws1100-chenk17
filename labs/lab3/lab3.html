@@ -6,23 +6,42 @@
     <title>Lab 3 Summary</title>
     <!-- Internal CSS styles are placed inside the style folder in the <head> section -->
     <link rel="stylesheet" href="../../style/styleRoot.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="home-container">
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lab 3 Summary</h1>
+            <p>Learn about the restructuring and personalization of the website.</p>
+        </div>
+    </header>
+
+    <main class="home-container fade-in">
         <!-- Name and contact info -->
-        <h1>Lab 3 Summary</h1>
+        <section>
+            <h2>Lab Summary</h2>
+            <p>This lab instructed us to restructure our website and personalize it with HTML and CSS. Also, to implement the planned website blueprint. I have added some animations and changed the background color to make it more unique.</p>
+        </section>
 
+        <section>
+            <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit">Restructured Home Page</a></p>
+            <p><a href="picture.html">IA Doc</a></p>
+        </section>
+    </main>
 
-        <h2> Lab Summary </h2>
-        <p> This lab instruced us to restructure our website and personalize it with the html and CSS. Also
-            to implement the planned website blueprint. I have added some animations and changed the backgound color to
-            make it more unique.</p>
-        <p><br></p>
-        <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit">Restructured Home Page</a></p>
-        <p><a href="picture.html">IA Doc</a></p>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-    </div>
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+            background-color: #e6f7ff; /* Light blue */
+        }
+    </style>
 </body>
 
 </html>

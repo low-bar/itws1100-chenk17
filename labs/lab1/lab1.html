@@ -4,28 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab 1 Summary</title>
-    <!-- Internal CSS styles are placed inside the style.css file in the <head> section -->
     <link rel="stylesheet" href="../../style/styleRoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Main container for the resume content -->
-    <div class="home-container">
-        <!-- Name and contact info -->
-        <h1>Lab 1 Summary</h1>
-
-        <div class="item">
-            <h2>Short Summary</h2>
-            <p>This lab introduced us to setting up a website with azure and modifying it using ssh</p>
-            <p>We also learned to manage files with github desktop.</p>
-            <p></p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lab 1 Summary</h1>
+            <p>Introduction to setting up a website with Azure and managing files with GitHub Desktop.</p>
         </div>
+    </header>
 
-        <div class="item">
+    <main class="home-container bounce">
+        <section class="item">
+            <h2>Short Summary</h2>
+            <p>This lab introduced us to setting up a website with Azure and modifying it using SSH. We also learned to manage files with GitHub Desktop.</p>
+        </section>
+
+        <section class="item">
             <h2>Lab Result</h2>
             <p><a href="lab1pictures.html">Pictures</a></p>
-        </div>
-    </div>
+        </section>
+    </main>
+
+    <style>
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .bounce {
+            animation: bounce 2s infinite;
+            background-color: #e6f7ff; /* Light blue */
+        }
+    </style>
 </body>
 
 </html>

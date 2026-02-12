@@ -4,26 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Home Page</title>
-  <!-- Internal CSS styles are placed inside the style.css file in the <head> section -->
   <link rel="stylesheet" href="style/styleRoot.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Main container for the resume content -->
-  <div class="home-container">
-    <!-- Name and contact info -->
-    <h1>Kevin Chen </h1>
-
-    <div class="item">
-      <h2>About Me</h2>
-      <p>Hello, I'm Kevin an undergraduate at Rensselaer Polytechnic Institute majoring in CS.<br>
-        I like to spend time on games and pull minor pranks when avialable. <br>
-        Some of my favorite games are Warframe, Helldivers 2, and
-        This is my personal website and record with ITWS begining with ITWS1100.
-      <p class="secret"> Why are you highlighting this? Stop it</p>
-      <p>Feel free to explore my labs!</p>
-
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Kevin Chen's Website</h1>
+      <p>Your one-stop destination for ITWS labs and more!</p>
+      <a href="labs/labs.html" class="cta-button">Explore Labs</a>
     </div>
-    <a href="labs/labs.html">View Labs</a>
-  </div>
+  </header>
+
+  <!-- Confetti animation -->
+  <div class="confetti" style="top: 0; left: 10%; animation-delay: 0s; background-color: #007acc;"></div>
+  <div class="confetti" style="top: 0; left: 30%; animation-delay: 0.5s; background-color: #005b99;"></div>
+  <div class="confetti" style="top: 0; left: 50%; animation-delay: 1s; background-color: #003f73;"></div>
+  <div class="confetti" style="top: 0; left: 70%; animation-delay: 1.5s; background-color: #007acc;"></div>
+  <div class="confetti" style="top: 0; left: 90%; animation-delay: 2s; background-color: #005b99;"></div>
+
+  <main class="home-container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello, I'm Kevin, an undergraduate at Rensselaer Polytechnic Institute majoring in CS.<br>
+        I like to spend time on games and pull minor pranks when available. <br>
+        Some of my favorite games are Warframe, Helldivers 2, and more.<br>
+        This is my personal website and record with ITWS, beginning with ITWS1100.
+      </p>
+      <p>Feel free to explore my labs!</p>
+    </section>
+  </main>
 </body>
+
+</html>

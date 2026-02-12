@@ -200,7 +200,17 @@ body {
   }
 }
 
-/* Adjust body overflow to allow scrolling */
+/* Adjust body overflow to ensure scrolling */
 body {
-  overflow-x: hidden; /* Prevent horizontal scrolling but allow vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Ensure vertical scrolling */
+}
+
+/* Add shapes to the left and right sides of the background */
+.shape.left {
+  left: -50px;
+}
+
+.shape.right {
+  right: -50px;
 }

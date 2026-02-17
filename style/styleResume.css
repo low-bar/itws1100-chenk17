@@ -1,6 +1,6 @@
 /* This sets the background color and font for the whole page */
 body {
-   font-family: Arial, sans-serif;
+   font-family: 'Merriweather', serif;
    background-color: #f4f4f4;
    margin: 0;
    padding: 0;

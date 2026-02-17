@@ -1,7 +1,60 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <p>Hello World!</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style/styleRoot.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Kevin Chen's Website</h1>
+      <p>Your one-stop destination for ITWS labs and more!</p>
+      <a href="labs/labs.html" class="button">Explore Labs</a>
+    </div>
+  </header>
+
+  <!-- Confetti animation -->
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+
+  <main class="home-container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello, I'm Kevin, an undergraduate at Rensselaer Polytechnic Institute majoring in CS.<br>
+        I like to spend time on games and pull minor pranks when available. <br>
+        Some of my favorite games are Warframe, Helldivers 2, and more.<br>
+        This is my personal website and record with ITWS, beginning with ITWS1100.
+      </p>
+      <p>Feel free to explore my labs!</p>
+    </section>
+  </main>
+  <div class="background-shapes">
+    <div class="shape gem"></div>
+    <div class="shape sword"></div>
+    <div class="shape jet"></div>
+  </div>
+  <style>
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    a:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</body>
+
 </html>

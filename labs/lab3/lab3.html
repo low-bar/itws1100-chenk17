@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 3 Summary</title>
+    <!-- Internal CSS styles are placed inside the style folder in the <head> section -->
+    <link rel="stylesheet" href="../../style/styleRoot.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lab 3 Summary</h1>
+            <p>Learn about the restructuring and personalization of the website.</p>
+        </div>
+    </header>
+
+    <main class="home-container fade-in">
+        <!-- Name and contact info -->
+        <section>
+            <h2>Lab Summary</h2>
+            <p>This lab instructed us to restructure our website and personalize it with HTML and CSS. Also, to implement the planned website blueprint. I have added some animations and changed the background color to make it more unique.</p>
+        </section>
+
+        <section>
+            <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit" class="button">Restructured Home Page</a></p>
+            <p><a href="picture.html" class="button">IA Doc</a></p>
+        </section>
+    </main>
+
+    <div class="background-shapes">
+        <div class="shape gem"></div>
+        <div class="shape sword"></div>
+        <div class="shape jet"></div>
+    </div>
+
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+            background-color: #e6f7ff; /* Light blue */
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</body>
+
+</html>

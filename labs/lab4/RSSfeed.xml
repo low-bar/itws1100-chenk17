@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<?xml-stylesheet type="text/css" href="../../style/styleRSS.css"?>
+<channel>
+	<title>RSS Feed</title>
+	<description>This is an up to date RSS feed of my labs</description>
+	<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/RSSfeed.xml</link>
+	<lastBuildDate>Thu, 19 Feb 2026 12:26  </lastBuildDate>
+	<pubDate>Thu, 19 Feb 2026 12:26  </pubDate>
+ 
+	<item>
+		<title>Lab 1</title>
+		<description>Inital introduction to github and webservers.</description>
+		<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs1/lab1.html</link>
+		<guid>Spring2026Lab1</guid>
+	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+	</item>
+
+	<item>
+		<title>Lab 2</title>
+		<description>Convert resume into web page.</description>
+		<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs2/lab2.html</link>
+		<guid>Spring2026Lab2</guid>
+	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+	</item>
+
+	<item>
+		<title>Lab 3</title>
+		<description>Whole website makeover.</description>
+		<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3/lab3.html</link>
+		<guid>Spring2026Lab3</guid>
+	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+	</item>
+ 
+	<item>
+		<title>Lab 3b</title>
+		<description>Whole website makeover using AI.</description>
+		<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3b/lab3b.html</link>
+		<guid>Spring2026Lab3b</guid>
+	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+	</item>
+
+	<item>
+		<title>Lab 4</title>
+		<description>Loggin labs onto RSS feed.</description>
+		<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs4/lab4.html</link>
+		<guid>Spring2026Lab4</guid>
+	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+	</item>
+
+</channel>
+</rss>

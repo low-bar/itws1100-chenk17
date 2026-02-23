@@ -1,3 +1,5 @@
+For this lab AI was used to prompt changes to improve the website.
+
 AI Given Prompts
 
 I have designed a simple website with an about me page and labs I have done for ITWS. Using only html and CSS what can be done to make it more eye catching since currently it looks boring with just colors and words

@@ -1,0 +1,10 @@
+/* CSS file for Lab 1 Pictures animations */
+
+@keyframes zoomIn {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.zoom-in {
+    animation: zoomIn 1.5s ease-in-out;
+}

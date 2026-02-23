@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 1 Pictures</title>
     <link rel="stylesheet" href="../../style/styleRoot.css">
+    <link rel="stylesheet" href="../../style/lab1pictures-animations.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -30,35 +32,13 @@
         </section>
     </main>
 
-    <style>
-        @keyframes zoomIn {
-            from { transform: scale(0.5); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-
-        .zoom-in {
-            animation: zoomIn 1.5s ease-in-out;
-            background-color: #e6f7ff; /* Light blue */
-        }
-
-        body {
-            overflow-y: auto; /* Ensure vertical scrolling */
-        }
-
-        a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: transform 0.3s ease;
-        }
-
-        a:hover {
-            transform: scale(1.1);
-        }
-    </style>
+    <footer>
+        <div class="background-shapes">
+            <div class="shape gem"></div>
+            <div class="shape sword"></div>
+            <div class="shape jet"></div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -35,3 +35,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+description {
+    display: block;
+    margin-bottom: 10px;
+}

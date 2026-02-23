@@ -1,26 +1,26 @@
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6f7ff; /* Light blue */
+    background-color: #ffe6e6; /* Light red */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Styling for the RSS feed title */
-title {
+/* Styling for the Atom feed title */
+feed > title {
     display: block;
     font-size: 24px;
     font-weight: bold;
-    color: #007acc; /* Azure blue */
+    color: #cc0000; /* Red */
     text-align: center;
     margin: 20px 0;
 }
 
-/* Styling for RSS feed items */
-item {
+/* Styling for Atom feed entries */
+entry {
     display: block;
-    border: 1px solid #007acc; /* Azure blue */
+    border: 1px solid #cc0000; /* Red */
     border-radius: 5px;
     margin: 10px auto;
     padding: 15px;
@@ -29,16 +29,16 @@ item {
     max-width: 600px;
 }
 
-/* Styling for item titles */
-item > title {
+/* Styling for entry titles */
+entry > title {
     font-size: 20px;
     font-weight: bold;
-    color: #007acc; /* Azure blue */
+    color: #cc0000; /* Red */
     margin-bottom: 10px;
 }
 
-/* Styling for item descriptions */
-item > description {
+/* Styling for entry summaries */
+entry > summary {
     display: block;
     font-size: 16px;
     color: #555;
@@ -46,14 +46,14 @@ item > description {
 }
 
 /* Styling for links */
-link {
+entry > link {
     display: block;
     font-size: 14px;
-    color: #007acc; /* Azure blue */
+    color: #cc0000; /* Red */
     text-decoration: none;
     margin-top: 10px;
 }
 
-link:hover {
+entry > link:hover {
     text-decoration: underline;
 }

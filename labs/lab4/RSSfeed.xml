@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
 <?xml-stylesheet type="text/css" href="rss.css"?>
+
+<rss version="2.0">
 <channel>
 	<title>RSS Feed</title>
 	<description>This is an up to date RSS feed of my labs</description>

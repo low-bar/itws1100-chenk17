@@ -18,3 +18,11 @@ description {
     color: #0000ff;
     font-size: 20pt;
 }
+link,
+guid,
+pubDate,
+lastBuildDate{
+    display: block;
+    color: #000000;
+    font-size: 14pt;
+}

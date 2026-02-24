@@ -5,19 +5,16 @@ channel{
 
 item{
     display: block;
-    border: 1px solid #007acc; 
-    border-radius: 5px;
-    margin: 10px auto;
-    padding: 15px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    margin-bottom: 30pt;
+    margin-left: 0;
 }
 title {
     display: block;
-    font-size: 24px;
-    font-weight: bold;
-    color: #007acc; 
-    text-align: center;
-    margin: 20px 0;
+    color: #ff0000;
+    font-size: 20pt;
+}
+description {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
 }

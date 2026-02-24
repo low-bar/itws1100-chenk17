@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-<?xml-stylesheet type="text/css" href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/style/rss.css"?>
+<?xml-stylesheet type="text/css" href=".../.../style/rss.css"?>
 <channel>
 	<title>RSS Feed</title>
 	<description>This is an up to date RSS feed of my labs</description>

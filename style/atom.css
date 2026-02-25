@@ -1,0 +1,39 @@
+feed{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+entry{
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+title {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+subtitle {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+link,
+id{
+    display: block;
+    color: #0000ff;
+    font-size: 14pt;
+    
+}
+updated,
+author,
+name,
+email,
+summary{
+    display: block;
+    color: #000000;
+    font-size: 14pt;
+}

@@ -1,0 +1,36 @@
+channel{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+item{
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+title {
+    display: block;
+    color: #ff0000;
+    font-size: 20pt;
+}
+description {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+link,
+guid{
+    display: block;
+    color: #0000ff;
+    font-size: 14pt;
+    
+}
+pubDate,
+lastBuildDate{
+    display: block;
+    color: #000000;
+    font-size: 14pt;
+}

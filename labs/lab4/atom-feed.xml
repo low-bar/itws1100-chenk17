@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../../style/atom.css"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Atom Feed</title>
+    <subtitle>This is an up-to-date Atom feed of my labs.</subtitle>
+    <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/atom-feed.xml" rel="self" />
+    <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit"></link>
+    <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/</id>
+    <updated>2026-02-24T19:20:00-05:00</updated>
+    <author>
+        <name>Kevin Chen</name>
+        <email>chenk17@rpi.edu</email>
+    </author>
+
+    <entry>
+        <title>Lab 1</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab1/lab1.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab1/lab1.html</id>
+        <updated>2026-02-02T13:08:00-05:00</updated>
+        <summary>Initial introduction to GitHub and web servers.</summary>
+    </entry>
+
+    <entry>
+        <title>Lab 2</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab2/lab2.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab2/lab2.html</id>
+        <updated>2026-02-05T14:23:00-05:00</updated>
+        <summary>Convert resume into a web page.</summary>
+    </entry>
+    <entry>
+        <title>Lab 3</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab3/lab3.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab3/lab3.html</id>
+        <updated>2026-02-09T15:26:00-05:00</updated>
+        <summary>Whole website makeover.</summary>
+    </entry>
+
+    <entry>
+        <title>Lab 3b</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab3b/lab3b.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab3b/lab3b.html</id>
+        <updated>2026-02-17T12:25:00-05:00</updated>
+        <summary>Whole website makeover using AI.</summary>
+    </entry>
+
+    <entry>
+        <title>Lab 4</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/lab4.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/lab4.html</id>
+        <updated>2026-02-24T19:20:00-05:00</updated>
+        <summary>Loggin labs onto RSS feed.</summary>
+    </entry>
+
+</feed>

@@ -22,7 +22,12 @@ description {
     font-size: 20pt;
 }
 link,
-guid,
+guid{
+    display: block;
+    color: #0000ff;
+    font-size: 14pt;
+    
+}
 pubDate,
 lastBuildDate{
     display: block;

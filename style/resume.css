@@ -68,3 +68,17 @@ ul {
    text-align: left;
    flex-shrink: 0;
 }
+
+a {
+         display: inline-block;
+         padding: 10px 20px;
+         background-color: #007BFF;
+         color: white;
+         text-decoration: none;
+         border-radius: 5px;
+         transition: transform 0.3s ease;
+      }
+
+      a:hover {
+         transform: scale(1.1);
+      }

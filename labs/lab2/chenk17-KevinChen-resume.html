@@ -5,114 +5,92 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Kevin Resume</title>
-   <!-- Internal CSS styles are placed inside the style.css file in the <head> section -->
    <link rel="stylesheet" href="../../style/resume.css">
    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-   <style>
-      a {
-         display: inline-block;
-         padding: 10px 20px;
-         background-color: #007BFF;
-         color: white;
-         text-decoration: none;
-         border-radius: 5px;
-         transition: transform 0.3s ease;
-      }
-
-      a:hover {
-         transform: scale(1.1);
-      }
-   </style>
 </head>
 
 <body>
-   <!-- Main container for the resume content -->
-   <div class="resume-container">
-      <!-- Name and contact info -->
-      <h1>Kevin Chen </h1>
-      <div class="contact-info">
-         Email: kchen1232@email.com | Phone: (605) 475-6958 | Albany, NY
-      </div>
+   <main class="resume-container">
+      <header>
+         <h1>Kevin Chen</h1>
+         <p class="contact-info">Email: kchen1232@email.com | Phone: (605) 475-6958 | Albany, NY</p>
+      </header>
 
-      <!-- Objective section -->
-      <h2>Objective</h2>
-      <p>
-         Motivated student seeking an internship in the software tech field to apply and expand skills.
-      </p>
+      <section>
+         <h2>Objective</h2>
+         <p>Motivated student seeking an internship in the software tech field to apply and expand skills.</p>
+      </section>
 
-      <!-- Education section -->
-      <h2>Education</h2>
-      <div class="item-flex">
-         <div class="item-content">
-            <strong>Colonie Central High School</strong><br>
-            High School Diploma
+      <section>
+         <h2>Education</h2>
+         <div class="item-flex">
+            <div class="item-content">
+               <strong>Colonie Central High School</strong><br>
+               High School Diploma
+            </div>
+            <aside class="item-date">2021 - 2025</aside>
          </div>
-         <div class="item-date">2021 - 2025</div>
 
-      </div>
-
-      <div class="item-flex">
-         <div class="item-content">
-            <strong>Rensselaer Polytechnic Institute</strong><br>
-            Bachelor of Science in Computer Science
+         <div class="item-flex">
+            <div class="item-content">
+               <strong>Rensselaer Polytechnic Institute</strong><br>
+               Bachelor of Science in Computer Science
+            </div>
+            <aside class="item-date">2025 - now</aside>
          </div>
-         <div class="item-date">2025 - now</div>
+      </section>
 
-      </div>
+      <section>
+         <h2>Skills</h2>
+         <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Basic Python, Java, C# & C++</li>
+            <li>GitHub</li>
+         </ul>
+      </section>
 
-      <!-- Skills section -->
-      <h2>Skills</h2>
-      <ul>
-         <li>HTML5 &amp; CSS3</li>
-         <li>Basic Python, Java, C# & C++</li>
-         <li>GitHub</li>
-      </ul>
-
-      <!-- Experience section -->
-      <h2>Experience</h2>
-      <div class="item-flex">
-         <div class="item-content">
-            <strong>Admin, Prometric</strong><br>
-            Processed and verified test taker identification for secure exams.
-            <br>
-            Ensured compliance with testing center policies and procedures.
-            <br>
+      <section>
+         <h2>Experience</h2>
+         <div class="item-flex">
+            <div class="item-content">
+               <strong>Admin, Prometric</strong><br>
+               Processed and verified test taker identification for secure exams.<br>
+               Ensured compliance with testing center policies and procedures.
+            </div>
+            <aside class="item-date">Jun 2024 - Aug 2024</aside>
          </div>
-         <div class="item-date">Jun 2024 - Aug 2024</div>
 
-      </div>
-
-      <div class="item-flex">
-         <div class="item-content-2">
-            <strong>Developer, RCOS</strong><br>
-            Developed a discord bot managing user data using Python.
-            <br>
-            Utilized GitHub for version control and collaboration.
-            <br>
+         <div class="item-flex">
+            <div class="item-content">
+               <strong>Developer, RCOS</strong><br>
+               Developed a discord bot managing user data using Python.<br>
+               Utilized GitHub for version control and collaboration.
+            </div>
+            <aside class="item-date">Jan 2026 - Now</aside>
          </div>
-         <div class="item-date">Jan 2026 - Now</div>
+      </section>
 
-      </div>
+      <section>
+         <h2>Activities</h2>
+         <ul>
+            <li>Member, First Robotic Team 250</li>
+            <li>Member, RCOS</li>
+         </ul>
+      </section>
 
-      <!-- Activities section -->
-      <h2>Activities</h2>
-      <ul>
-         <li>Member, First Robotic Team 250</li>
-         <li>Member, RCOS </li>
-      </ul>
+      <section>
+         <h2>Interests</h2>
+         <ul>
+            <li>Coding</li>
+            <li>Games</li>
+         </ul>
+      </section>
 
-      <h2>Interests</h2>
-      <ul>
-         <li>Coding</li>
-         <li>Games </li>
-      </ul>
-
-      <div class="item">
+      <footer>
          <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit" class="button">Back Home</a></p>
          <p><a href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs.html" class="button">Back Labs</a></p>
-      </div>
-   </div>
-
+      </footer>
+   </main>
 </body>
 
 </html>

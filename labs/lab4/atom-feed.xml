@@ -53,4 +53,12 @@
         <summary>Loggin labs onto RSS feed.</summary>
     </entry>
 
+    <entry>
+        <title>Lab 5</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab5/lab5sum.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab5/lab5sum.html</id>
+        <updated>2026-03-14T16:00:00-05:00</updated>
+        <summary>Form with JavaScript.</summary>
+    </entry>
+
 </feed>

@@ -32,3 +32,6 @@ fieldset {
 #save {
    float: right;
 }
+textarea:focus {
+   background-color: #fee;
+}

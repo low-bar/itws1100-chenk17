@@ -58,7 +58,7 @@ function validate(formObj) {
 
 function onFocusComment() {
    var comment = document.getElementById("comments");
-   if (comment.value  == "Please enter your comments") {
+   if (comment.value == "Please enter your comments") {
       comment.value = "";
    }
 }
@@ -80,7 +80,11 @@ function checkName() {
 
    }
    else {
-      alert("Your name is " + firstName.value + " " + lastName.value + " and your nickname is " + nickname.value);
+      alert(firstName.value + " " + lastName.value + " is " + nickname.value);
    }
 }
-   
+
+function onLoad() {
+   document.getElementById("firstName").focus();
+}
+

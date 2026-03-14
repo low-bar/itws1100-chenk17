@@ -1,0 +1,3 @@
+chenk17rpi.eastus.cloudapp.azure.com/iit
+
+For this lab a html form is provided, we need to add JavaScript functions that checks all textbox expect comment must have an input. Also used JavaScript to make the comment box delete the default text and have it reappear is nothing is typed in by the user when they click off. Read the 10 crimes and fixed crime # 1 by adding for in the labels to show which is for which input textbox. Crime #4 is fixed by adding a style for textarea when focus.

@@ -11,11 +11,8 @@ function validate(formObj) {
 
    if (formObj.firstName.value == "") {
       message += "You must enter a first name\n";
-      if (focus == 0) {
-         focus = 1;
-         formObj.firstName.focus();
-         valid = false;
-      }
+      formObj.firstName.focus();
+      valid = false;
    }
    if (formObj.lastName.value == "") {
       message += "You must enter a last name\n";

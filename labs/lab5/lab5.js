@@ -10,44 +10,49 @@ function validate(formObj) {
    var message = "";
 
    if (formObj.firstName.value == "") {
-      message += "You must enter a first name\n";
       if (focus == 0) {
          formObj.firstName.focus();
          focus = 1;
          valid = false;
       }
+      message += "You must enter a first name\n";
+
    }
    if (formObj.lastName.value == "") {
-      message += "You must enter a last name\n";
       if (focus == 0) {
          formObj.lastName.focus();
          focus = 1;
          valid = false;
       }
+      message += "You must enter a last name\n";
+
    }
    if (formObj.title.value == "") {
-      message += "You must enter a title\n";
       if (focus == 0) {
          formObj.title.focus();
          focus = 1;
          valid = false;
       }
+      message += "You must enter a title\n";
+
    }
    if (formObj.org.value == "") {
-      message += "You must enter an organization\n";
       if (focus == 0) {
          formObj.org.focus();
          focus = 1;
          valid = false;
       }
+      message += "You must enter an organization\n";
+
    }
    if (formObj.nickname.value == "") {
-      message += "You must enter a nickname or retype your name\n";
       if (focus == 0) {
          formObj.pseudonym.focus();
          focus = 1;
          valid = false;
       }
+      message += "You must enter a nickname or retype your name\n";
+
    }
    if (valid == false) {
       alert(message);

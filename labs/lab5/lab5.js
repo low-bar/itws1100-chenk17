@@ -47,7 +47,7 @@ function validate(formObj) {
    }
    if (formObj.nickname.value == "") {
       if (focus == 0) {
-         formObj.pseudonym.focus();
+         formObj.nickname.focus();
          focus = 1;
          valid = false;
       }

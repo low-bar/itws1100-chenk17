@@ -36,11 +36,12 @@ $(document).ready(function () {
    //   make it appear with a 3.3 second duration when a user clicks "Show text":
 
    $('#hideText').click(function () {
-      $('#showHideBlock').hide(2000);
+      $('#showHideBlock p').hide(2000);
    });
 
+
    $('#showText').click(function () {
-      $('#showHideBlock').show(3300);
+      $('#showHideBlock p').show(3300);
    });
 
 
@@ -60,7 +61,7 @@ $(document).ready(function () {
 
    $('#AddListItem').click(function () {
       const numb = $('#labList li').length + 1;
-      $('#labList').append('<li> List Item '+ numb +'</li>');
+      $('#labList').append('<li> List Item ' + numb + '</li>');
    });
 
    // Problem 5 (10 pts) - what happens when you click on the new li?  Why? (Explain in your readme file)
@@ -75,7 +76,7 @@ $(document).ready(function () {
    // link to show/hide the text:
 
    $('#toggleText').click(function () {
-      $('#showHideBlock').toggle(2000);
+      $('#showHideBlock p').toggle(2000);
    });
 
    // Problems: 50 pts

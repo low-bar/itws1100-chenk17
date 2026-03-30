@@ -9,15 +9,21 @@ $(document).ready(function () {
     $("title").html('ITWS 1100 - Quiz 2');
 
     $('.go').click(function () {
-        if ($('title').html() === 'ITWS 1100 - Quiz 2') {    
-        $('title').html('Chen - Quiz 2');}
-        else{
+        if ($('title').html() === 'ITWS 1100 - Quiz 2') {
+            $('title').html('Chen - Quiz 2');
+        }
+        else {
             $('title').html('ITWS 1100 - Quiz 2');
         }
     });
 
-    $('#lastname').hover(function (infunction) {
+    $('#lastname').hover(function () {
         $(this).addClass('makeItPurple');
+    });
+    $('#lastname').mouseleave(function () {
+        $(this).removeClass('makeItPurple');
+
     });
 
 });
+

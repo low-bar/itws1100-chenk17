@@ -1,8 +1,7 @@
 $(document).ready(function () {
-
     $.ajax({
         type: "GET",
-        url: "lab8jsonfeed.js",
+        url: "lab8jsonfeed.json",
         dataType: "json",
         success: function (responseData, status) {
             var output = "<ul>";
@@ -10,11 +9,10 @@ $(document).ready(function () {
                 output += '<li><a href="' + item.link + '" class="button">' + item.description + '</a></li>';
             });
             output += "</ul>";
-            $('#lablist').html(output);
+            $('#labfeed').html(output);
         }, error: function (msg) {
-            // there was a problem
+            console.error("AJAX Error:", msg);
             alert("There was a problem: " + msg.status + " " + msg.statusText);
         }
     });
-
 });

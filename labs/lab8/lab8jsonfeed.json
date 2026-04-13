@@ -1,32 +1,75 @@
 {
-   "items": [
+   "pages": [
       {
-         "link": "lab1/lab1.html",
-         "description": "Lab 1"
+         "page": "LabList",
+         "items": [
+            { "link": "lab1/lab1.html", "description": "Lab 1" },
+            { "link": "lab2/lab2.html", "description": "Lab 2" },
+            { "link": "lab3/lab3.html", "description": "Lab 3" },
+            { "link": "lab3b/lab3b.html", "description": "Lab 3b" },
+            { "link": "lab4/lab4.html", "description": "Lab 4" },
+            { "link": "lab5/lab5sum.html", "description": "Lab 5" },
+            { "link": "lab6/lab6sum.html", "description": "Lab 6" }
+         ]
       },
       {
-         "link": "lab2/lab2.html",
-         "description": "Lab 2"
-      },
-      {
-         "link": "lab3/lab3.html",
-         "description": "Lab 3"
-      },
-      {
-         "link": "lab3b/lab3b.html",
-         "description": "Lab 3b"
-      },
-      {
-         "link": "lab4/lab4.html",
-         "description": "Lab 4"
-      },
-      {
-         "link": "lab5/lab5sum.html",
-         "description": "Lab 5"
-      },
-      {
-         "link": "lab6/lab6sum.html",
-         "description": "Lab 6"
+         
+         "page": "RSS",
+         "title": "RSS Feed",
+         "description": "This is an up to date RSS feed of my labs",
+         "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/rss-feed.xml",
+         "feedUrl": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab4/rss-feed.xml",
+         "items": [
+            {
+               "title": "Lab 1",
+               "description": "Inital introduction to github and webservers.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs1/lab1.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs1/lab1.html",
+               "pubDate": "Mon, 2 Feb 2026 13:08:00 -0500"
+            },
+            {
+               "title": "Lab 2",
+               "description": "Convert resume into web page.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs2/lab2.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs2/lab2.html",
+               "pubDate": "Thu, 5 Feb 2026 14:23:00 -0500"
+            },
+            {
+               "title": "Lab 3",
+               "description": "Whole website makeover.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3/lab3.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3/lab3.html",
+               "pubDate": "Mon, 9 Feb 2026 15:26:00 -0500"
+            },
+            {
+               "title": "Lab 3b",
+               "description": "Whole website makeover using AI.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3b/lab3b.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs3b/lab3b.html",
+               "pubDate": "Tue, 17 Feb 2026 12:25:00 -0500"
+            },
+            {
+               "title": "Lab 4",
+               "description": "Loggin labs onto RSS feed.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs4/lab4.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs4/lab4.html",
+               "pubDate": "Tue, 24 Feb 2026 19:20:00 -0500"
+            },
+            {
+               "title": "Lab 5",
+               "description": "Form with JavaScript.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs5/lab5sum.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs5/lab5sum.html",
+               "pubDate": "Sat, 14 Mar 2026 16:00:00 -0500"
+            },
+            {
+               "title": "Lab 6",
+               "description": "DOM interactive JavaScriipt/JQuery.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs6/lab6sum.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs6/lab6sum.html",
+               "pubDate": "Sun, 22 Mar 2026 16:00:00 -0500"
+            }
+         ]
       }
    ]
 }

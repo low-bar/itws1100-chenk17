@@ -24,7 +24,8 @@
 
     // Add XML stylesheet directive for CSS
     $stylesheet = "<?xml-stylesheet type=\"text/css\" href=\"../../../style/rss.css\"?>\n";
-    $xmlData = $stylesheet . $xmlData;
+    // Ensure the XML declaration comes before the stylesheet directive
+    $xmlData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" . $stylesheet . $xmlData;
 
     // Path to save — matches your existing rss-feed.xml filename
     $savePath = 'feeds/rss-feed.xml';

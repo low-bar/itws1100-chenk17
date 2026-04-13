@@ -6,7 +6,7 @@
     }
 
     // Read the raw XML from the request body
-    $xmlData = file_get_contents('php://input');
+    $xmlData = trim(file_get_contents('php://input'));
 
     // Validate data was received
     if (empty($xmlData)) {
@@ -22,25 +22,30 @@
         exit('Invalid XML received');
     }
 
-    // Add XML stylesheet directive for CSS
-    $stylesheet = "<?xml-stylesheet type=\"text/css\" href=\"../../../style/rss.css\"?>\n";
-    // Ensure the XML declaration comes before the stylesheet directive
-    $xmlData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" . $stylesheet . $xmlData;
+    // 1. Define the components
+    $declaration = '<?xml version="1.0" encoding="UTF-8"?>';
+    $stylesheet  = '<?xml-stylesheet type="text/css" href="../../../style/rss.css"?>';
 
-    // Path to save — matches your existing rss-feed.xml filename
+    // 2. Remove ANY existing XML declaration at the top (flexible regex)
+    // This looks for "<?xml" through to the closing "?>" and any trailing newlines
+    $xmlData = preg_replace('/^<\?xml[^?]+\?>\s*/i', '', $xmlData);
+
+    // 3. Reconstruct the file in the correct order
+    $finalOutput = $declaration . "\n" . $stylesheet . "\n" . $xmlData;
+
+    // Path to save
     $savePath = 'feeds/rss-feed.xml';
 
-    // Create the feeds folder if it doesn't exist yet
     if (!file_exists('feeds')) {
         mkdir('feeds', 0755, true);
     }
 
     // Write the file
-    if (file_put_contents($savePath, $xmlData) !== false) {
+    if (file_put_contents($savePath, $finalOutput) !== false) {
         http_response_code(200);
         echo 'RSS feed saved successfully';
     } else {
         http_response_code(500);
-        echo 'Failed to write file — check folder permissions';
+        echo 'Failed to write file';
     }
 ?>

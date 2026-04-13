@@ -22,6 +22,10 @@
         exit('Invalid XML received');
     }
 
+    // Add XML stylesheet directive for CSS
+    $stylesheet = "<?xml-stylesheet type=\"text/css\" href=\"../../../style/rss.css\"?>\n";
+    $xmlData = $stylesheet . $xmlData;
+
     // Path to save — matches your existing rss-feed.xml filename
     $savePath = 'feeds/rss-feed.xml';
 

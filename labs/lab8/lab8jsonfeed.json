@@ -3,17 +3,19 @@
       {
          "page": "LabList",
          "items": [
-            { "link": "lab1/lab1.html", "description": "Lab 1" },
-            { "link": "lab2/lab2.html", "description": "Lab 2" },
-            { "link": "lab3/lab3.html", "description": "Lab 3" },
-            { "link": "lab3b/lab3b.html", "description": "Lab 3b" },
-            { "link": "lab4/lab4.html", "description": "Lab 4" },
-            { "link": "lab5/lab5sum.html", "description": "Lab 5" },
-            { "link": "lab6/lab6sum.html", "description": "Lab 6" }
+            { "link": "../lab1/lab1.html", "description": "Lab 1 SetUp" },
+            { "link": "../lab2/lab2.html", "description": "Lab 2 Resume" },
+            { "link": "../lab3/lab3.html", "description": "Lab 3 Website Makeover" },
+            { "link": "../lab3b/lab3b.html", "description": "Lab 3b AI Makeover" },
+            { "link": "../lab4/lab4.html", "description": "Lab 4 Rss/Atom Feeds" },
+            { "link": "../lab5/lab5sum.html", "description": "Lab 5 JS Form" },
+            { "link": "../lab6/lab6sum.html", "description": "Lab 6 Interactive JS" },
+            { "link": "../lab7/lab7.html", "description": "Lab 7 Mockup Project" },
+            { "link": "../lab8/lab8.html", "description": "Lab 8 AJAX JS" },
+            { "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "description": "Template"}
          ]
       },
       {
-         
          "page": "RSS",
          "title": "RSS Feed",
          "description": "This is an up to date RSS feed of my labs",
@@ -68,6 +70,20 @@
                "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs6/lab6sum.html",
                "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs6/lab6sum.html",
                "pubDate": "Sun, 22 Mar 2026 16:00:00 -0500"
+            },
+            {
+               "title": "Lab 7",
+               "description": "MockUp Project.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs7/lab7.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs7/lab7.html",
+               "pubDate": "Thu, 2 Apr 2026 16:00:00 -0500"
+            },
+            {
+               "title": "Lab 8",
+               "description": "AJAX LabList and RSS feed.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs8/lab8.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs8/lab8.html",
+               "pubDate": "Mon, 13 Apr 2026 12:00:00 -0500"
             }
          ]
       }

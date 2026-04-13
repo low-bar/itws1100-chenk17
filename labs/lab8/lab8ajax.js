@@ -8,14 +8,13 @@ $(document).ready(function () {
             $.each(responseData.pages, function (i, page) {
                 // For Lablist
                 if (page.page == "LabList") {
-                    var output = "<ul>";          // ✅ declare INSIDE the if block, fresh each time
+                    var output = "<ul>";         
                     $.each(page.items, function (j, item) {
                         output += '<li><a href="' + item.link + '" class="button">' + item.description + '</a></li>';
                     });
                     output += "</ul>";
                     $("#" + page.page).html(output);
                 }
-
 
                 // For RSS
                 if (page.page == "RSS") {
@@ -31,6 +30,7 @@ $(document).ready(function () {
 });
 
 
+// Helper function to build RSS XML string from page data
 function buildRSSFeed(page) {
 
     function escapeXml(str) {

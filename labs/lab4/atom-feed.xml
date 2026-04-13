@@ -69,4 +69,19 @@
         <summary>DOM interactive JavaScriipt/JQuery.</summary>
     </entry>
 
+    <entry>
+        <title>Lab 7</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab7/lab7.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab7/lab7.html</id>
+        <updated>2026-04-02T16:00:00-05:00</updated>
+        <summary>MockUp Project.</summary>
+    </entry>
+
+    <entry>
+        <title>Lab 8</title>
+        <link href="http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab8/lab8.html" />
+        <id>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab8/lab8.html</id>
+        <updated>2026-04-13T12:00:00-05:00</updated>
+        <summary>AJAX LabList and RSS feed.</summary>
+    </entry>
 </feed>

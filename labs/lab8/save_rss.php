@@ -26,7 +26,6 @@ $declaration = '<?xml version="1.0" encoding="UTF-8"?' . '>';
 $stylesheet  = '<?xml-stylesheet type="text/css" href="../../../style/rss.css"?' . '>';
 
 // 2. Flexible Regex to remove any existing declaration
-// We use \x3E to represent the '>' character so the editor doesn't see '?>'
 $xmlData = preg_replace('/^<\?xml[^?]+\?\x3E\s*/i', '', $xmlData);
 
 // 3. Reconstruct final output

@@ -50,8 +50,8 @@ if ($havePost) {
    <label for="title">Title:</label>
    <input type="text" id="title" name="title" required><br>
 
-   <label for="yearReleased">Year Released:</label>
-   <input type="number" id="yearReleased" name="yearReleased" required><br>
+   <label for="year">Year Released:</label>
+   <input type="number" id="year" name="year" required><br>
 
    <button type="submit" name="save">Save Movie</button>
 </form>

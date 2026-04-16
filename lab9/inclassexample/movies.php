@@ -78,7 +78,7 @@ if ($havePost) {
          echo '</td><td>';
          echo htmlspecialchars($record['year']);
          echo '</td><td>';
-         echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
+         echo '<img src="resources/delete.png" class="deleteMovie" width="16" height="16" alt="delete movie"/>';
          echo '</td></tr>';
          // Uncomment the following three lines to see the underlying
          // associative array for each record.

@@ -3,7 +3,7 @@
   
   /* Create a new database connection object, passing in the host, username,
      password, and database to use. The "@" suppresses errors. */
-  @ $db = new mysqli('localhost', 'root', 'root', 'iit');
+  @ $db = new mysqli('localhost', 'phpmyadmin', '1234', 'iit');
   
   if ($db->connect_error) {
     $connectErrors = array(

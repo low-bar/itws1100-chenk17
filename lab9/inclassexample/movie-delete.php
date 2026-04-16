@@ -1,9 +1,9 @@
 <?php
   /* Delete an movie */
   
-  /* Create a new database connection object, passing in the host, username,
-     password, and database to use. The "@" suppresses errors. */
-  @ $db = new mysqli('localhost', 'phpmyadmin', '1234', 'iit');
+  include('config.php');
+  
+  @$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
   
   if ($db->connect_error) {
     $connectErrors = array(

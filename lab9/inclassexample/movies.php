@@ -62,7 +62,7 @@ if ($havePost) {
    <?php
    if ($dbOk) {
 
-      $query = 'select * from movie order by year';
+      $query = 'select * from movies order by year';
       $result = $db->query($query);
       $numRecords = $result->num_rows;
 

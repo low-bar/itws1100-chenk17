@@ -118,18 +118,18 @@ if ($havePost) {
 
          <label class="field" for="firstNames">First Name(s):</label>
          <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
-                                                                     echo $First;
-                                                                  } ?>" name="First" id="First" /></div>
+                                                                     echo $firstNames;
+                                                                  } ?>" name="firstNames" id="firstNames" /></div>
 
          <label class="field" for="lastName">Last Name:</label>
          <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
-                                                                     echo $Last;
-                                                                  } ?>" name="Last" id="Last" /></div>
+                                                                     echo $lastName;
+                                                                  } ?>" name="lastName" id="lastName" /></div>
 
          <label class="field" for="dob">Date of Birth:</label>
          <div class="value"><input type="text" size="10" maxlength="10" value="<?php if ($havePost && $errors != '') {
-                                                                                    echo $year;
-                                                                                 } ?>" name="year" id="year" /> <em>yyyy-mm-dd</em></div>
+                                                                                    echo $dob;
+                                                                                 } ?>" name="dob" id="dob" /> <em>yyyy-mm-dd</em></div>
 
          <input type="submit" value="save" id="save" name="save" />
       </div>

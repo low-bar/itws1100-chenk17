@@ -48,8 +48,8 @@ function buildRSSFeed(page) {
     }
 
     function toRSSDate(dateStr) {
-    return dateStr ? dateStr : new Date().toUTCString(); 
-}
+        return dateStr ? dateStr : new Date().toUTCString();
+    }
 
     // Build each <item> from page.items
     var itemsXml = "";

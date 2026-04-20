@@ -12,6 +12,7 @@
             { "link": "../lab6/lab6sum.html", "description": "Lab 6 Interactive JS" },
             { "link": "../lab7/lab7.html", "description": "Lab 7 Mockup Project" },
             { "link": "../lab8/lab8.html", "description": "Lab 8 AJAX JS" },
+            { "link": "../lab9/lab9.html", "description": "Lab 9 SQL and PHP" },
             { "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "description": "Template"}
          ]
       },
@@ -84,6 +85,13 @@
                "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs8/lab8.html",
                "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/labs8/lab8.html",
                "pubDate": "Mon, 13 Apr 2026 12:00:00 -0500"
+            },
+            {
+               "title": "Lab 9",
+               "description": "SQL and PHP integration.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab9/lab9.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab9/lab9.html",
+               "pubDate": "Mon, 20 Apr 2026 12:00:00 -0500"
             }
          ]
       }

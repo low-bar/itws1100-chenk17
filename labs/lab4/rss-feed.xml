@@ -84,5 +84,12 @@
 			<pubDate>Mon, 13 Apr 2026 12:00:00 -0500</pubDate>
 		</item>
 
+		<item>
+			<title>Lab 9</title>
+			<description>PHP Database Form.</description>
+			<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/lab9.html</link>
+			<guid>http://chenk17rpi.eastus.cloudapp.azure.com/iit/lab9.html</guid>
+			<pubDate>Mon, 13 Apr 2026 12:00:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>

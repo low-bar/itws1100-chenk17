@@ -8,9 +8,14 @@ $(document).ready(function () {
             $.each(responseData.pages, function (i, page) {
                 // For Lablist
                 if (page.page == "LabList") {
-                    var output = "<ul>";         
+                    var output = "<ul>";
                     $.each(page.items, function (j, item) {
-                        output += '<li><a href="' + item.link + '" class="button">' + item.description + '</a></li>';
+                        var lockIcon = item.secure ? ' 🔒' : '';
+                        output += '<li><a href="' + item.link + '"';
+                        if (item.secure) {
+                            output += ' title="Password required"';
+                        }
+                        output += ' class="button">' + item.description + lockIcon + '</a></li>';
                     });
                     output += "</ul>";
                     $("#" + page.page).html(output);
@@ -29,7 +34,6 @@ $(document).ready(function () {
     });
 });
 
-
 // Helper function to build RSS XML string from page data
 function buildRSSFeed(page) {
 
@@ -44,8 +48,8 @@ function buildRSSFeed(page) {
     }
 
     function toRSSDate(dateStr) {
-    return dateStr ? dateStr : new Date().toUTCString(); 
-}
+        return dateStr ? dateStr : new Date().toUTCString();
+    }
 
     // Build each <item> from page.items
     var itemsXml = "";

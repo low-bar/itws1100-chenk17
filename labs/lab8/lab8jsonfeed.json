@@ -3,17 +3,19 @@
       {
          "page": "LabList",
          "items": [
-            { "link": "../lab1/lab1.html", "description": "Lab 1 SetUp" },
-            { "link": "../lab2/lab2.html", "description": "Lab 2 Resume" },
-            { "link": "../lab3/lab3.html", "description": "Lab 3 Website Makeover" },
-            { "link": "../lab3b/lab3b.html", "description": "Lab 3b AI Makeover" },
-            { "link": "../lab4/lab4.html", "description": "Lab 4 Rss/Atom Feeds" },
-            { "link": "../lab5/lab5sum.html", "description": "Lab 5 JS Form" },
-            { "link": "../lab6/lab6sum.html", "description": "Lab 6 Interactive JS" },
-            { "link": "../lab7/lab7.html", "description": "Lab 7 Mockup Project" },
-            { "link": "../lab8/lab8.html", "description": "Lab 8 AJAX JS" },
-            { "link": "../lab9/lab9.html", "description": "Lab 9 SQL and PHP" },
-            { "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "description": "Template"}
+            { "link": "../lab1/lab1.html", "description": "Lab 1 SetUp", "secure": true },
+            { "link": "../lab2/lab2.html", "description": "Lab 2 Resume", "secure": false },
+            { "link": "../lab3/lab3.html", "description": "Lab 3 Website Makeover", "secure": false },
+            { "link": "../lab3b/lab3b.html", "description": "Lab 3b AI Makeover", "secure": false },
+            { "link": "../lab4/lab4.html", "description": "Lab 4 Rss/Atom Feeds", "secure": false },
+            { "link": "../lab5/lab5sum.html", "description": "Lab 5 JS Form", "secure": false },
+            { "link": "../lab6/lab6sum.html", "description": "Lab 6 Interactive JS", "secure": false },
+            { "link": "../lab7/lab7.html", "description": "Lab 7 Mockup Project", "secure": false },
+            { "link": "../lab8/lab8.html", "description": "Lab 8 AJAX JS", "secure": false },
+            { "link": "../lab9/lab9.html", "description": "Lab 9 SQL and PHP", "secure": true },
+            { "link": "../lab10/lab10.html", "description": "Lab 10 Production Deployment", "secure": false },
+
+            { "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "description": "Template", "secure": false }
          ]
       },
       {
@@ -92,6 +94,13 @@
                "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab9/lab9.html",
                "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab9/lab9.html",
                "pubDate": "Mon, 20 Apr 2026 12:00:00 -0500"
+            },
+            {
+               "title": "Lab 10",
+               "description": "Production Deployment.",
+               "link": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab10/lab10.html",
+               "guid": "http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab10/lab10.html",
+               "pubDate": "Mon, 20 Apr 2026 14:00:00 -0500"
             }
          ]
       }

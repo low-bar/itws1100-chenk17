@@ -91,5 +91,13 @@
 			<guid>http://chenk17rpi.eastus.cloudapp.azure.com/iit/lab9.html</guid>
 			<pubDate>Mon, 13 Apr 2026 12:00:00 -0500</pubDate>
 		</item>
+
+		<item>
+			<title>Lab 10</title>
+			<description>Production Deployment.</description>
+			<link>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab10/lab10.html</link>
+			<guid>http://chenk17rpi.eastus.cloudapp.azure.com/iit/labs/lab10/lab10.html</guid>
+			<pubDate>Mon, 20 Apr 2026 14:00:00 -0500</pubDate>
+		</item>
 	</channel>
 </rss>

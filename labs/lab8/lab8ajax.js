@@ -6,7 +6,7 @@ $(document).ready(function () {
         success: function (responseData, status) {
             // Iterate through pages 
             $.each(responseData.pages, function (i, page) {
-                // For Lablist
+                // For LabList
                 if (page.page == "LabList") {
                     var output = "<ul>";
                     $.each(page.items, function (j, item) {

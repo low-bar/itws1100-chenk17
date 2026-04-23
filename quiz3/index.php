@@ -54,6 +54,8 @@ if ($havePost) {
 <head>
     <meta charset="UTF-8">
     <title>Wall</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Jquery_ui.js"></script>
 </head>
 <body>
 

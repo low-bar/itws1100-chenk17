@@ -1,5 +1,5 @@
 <?php
-include('../labs/lab9/inclassexample/config.php');
+include('config.php');
 
 $dbOk = false;
 @$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);

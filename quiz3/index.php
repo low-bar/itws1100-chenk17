@@ -20,16 +20,18 @@ if ($havePost) {
     $comment = htmlspecialchars(trim($_POST["comments"]));
 
     if ($name == '') {
-        $errors .= '<li>Name may not be blank</li>';
+        $errors .= "Name may not be blank\n";
     }
     if ($comment == '') {
-        $errors .= '<li>Comment may not be blank</li>';
+        $errors .= "Comment may not be blank\n";
     }
 
     if ($errors != '') {
-        echo '<div class="messages"><h4>Please correct the following errors:</h4><ul>';
-        echo $errors;
-        echo '</ul></div>';
+        echo '<script type="text/javascript">';
+        echo '  $(document).ready(function() {';
+        echo '    alert(' . json_encode(trim($errors)) . ');';
+        echo '  });';
+        echo '</script>';
     } else {
         if ($dbOk) {
             $nameForDb    = trim($_POST["name"]);
@@ -40,7 +42,11 @@ if ($havePost) {
             $statement->bind_param("ss", $nameForDb, $commentForDb);
             $statement->execute();
 
-            echo '<div class="messages"><h4>Success: comment added.</h4></div>';
+            echo '<script type="text/javascript">';
+            echo '  $(document).ready(function() {';
+            echo '    alert("Success: comment added.");';
+            echo '  });';
+            echo '</script>';
             $statement->close();
 
             $name    = '';

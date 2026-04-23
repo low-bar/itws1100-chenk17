@@ -79,27 +79,23 @@ if ($havePost) {
 </form>
 
 <h3>Wall</h3>
-<table id="wallTable" border="1" cellpadding="6">
+<div id="wallBody">
     <?php
     if ($dbOk) {
         $query  = 'SELECT * FROM wall ORDER BY id DESC';
         $result = $db->query($query);
         $numRecords = $result->num_rows;
 
-        echo '<tr><th>Name</th><th>Comment</th></tr>';
         for ($i = 0; $i < $numRecords; $i++) {
             $record = $result->fetch_assoc();
-            echo '<tr>';
-            echo '<td>' . htmlspecialchars($record['name'])     . '</td>';
-            echo '<td>' . htmlspecialchars($record['comments']) . '</td>';
-            echo '</tr>';
+            echo '<p>' . htmlspecialchars($record['name']) . ' : ' . htmlspecialchars($record['comments']) . '</p>';
         }
 
         $result->free();
         $db->close();
     }
     ?>
-</table>
+</div>
 
 </body>
 </html>

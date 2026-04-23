@@ -14,6 +14,7 @@ $havePost = isset($_POST["submit"]);
 $errors = '';
 $name = '';
 $comment = '';
+$popupMessage = '';
 
 if ($havePost) {
     $name    = htmlspecialchars(trim($_POST["name"]));
@@ -27,11 +28,7 @@ if ($havePost) {
     }
 
     if ($errors != '') {
-        echo '<script type="text/javascript">';
-        echo '  $(document).ready(function() {';
-        echo '    alert(' . json_encode(trim($errors)) . ');';
-        echo '  });';
-        echo '</script>';
+        $popupMessage = trim($errors);
     } else {
         if ($dbOk) {
             $nameForDb    = trim($_POST["name"]);
@@ -42,11 +39,7 @@ if ($havePost) {
             $statement->bind_param("ss", $nameForDb, $commentForDb);
             $statement->execute();
 
-            echo '<script type="text/javascript">';
-            echo '  $(document).ready(function() {';
-            echo '    alert("Success: comment added.");';
-            echo '  });';
-            echo '</script>';
+            $popupMessage = "Success: comment added.";
             $statement->close();
 
             $name    = '';
@@ -105,5 +98,13 @@ if ($havePost) {
     ?>
 </div>
 
+
+<?php if ($popupMessage != '') { ?>
+<script type="text/javascript">
+    $(document).ready(function () {
+        alert(<?php echo json_encode($popupMessage); ?>);
+    });
+</script>
+<?php } ?>
 </body>
 </html>

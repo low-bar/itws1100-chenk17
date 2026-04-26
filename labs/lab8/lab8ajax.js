@@ -13,7 +13,21 @@ $(document).ready(function () {
                         output += '<li><a href="' + item.link + '" class="button">' + item.description + '</a></li>';
                     });
                     output += "</ul>";
+                    // ensure the target element exist then setting css for the links
                     $("#" + page.page).html(output);
+                    $("#LabList a").css({
+                        'display':          'inline-block',
+                        'padding':          '10px 20px',
+                        'background-color': '#007bff',
+                        'color':            'white',
+                        'text-decoration':  'none',
+                        'border-radius':    '5px',
+                        'transition':       'transform 0.3s ease'
+                    });
+                    $("#LabList a").hover(
+                        function () { $(this).css('transform', 'scale(1.1)'); },
+                        function () { $(this).css('transform', 'scale(1)'); }
+                    );
                 }
 
                 // For RSS
